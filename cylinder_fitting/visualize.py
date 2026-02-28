@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib
 matplotlib.use('TkAgg') 
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import axes3d
 
 from .geometry import rotation_matrix_from_axis_and_angle 
 from . import fitting
